@@ -1,0 +1,120 @@
+#!/bin/bash
+#用法:      ./gn_make_inc_pkg <project_name> <oldpackage_path> <newpackage_path>
+
+#!/bin/bash
+#
+#       DESCRIPTION:    Download the specified code from svn server
+#
+#       SCRIPT NAME:    gn_checkout_code.sh
+#
+#       Usage:   gn_checkout_code.sh 
+#                
+#
+#       Input:  stdin
+#                       1. alps url
+#                       2. apps url
+#
+#       Output: 
+#
+#       AUTHOR:         Ling Fen
+#
+#       EMAIL:          lingfen@gionee.com
+#
+#       DATE:           2012-11-03
+#
+#       HISTORY:
+#       REVISOR         DATE                    MODIFICATION
+#       LingFen         2012-11-03              create
+
+usage(){
+    printf "
+    Download the specified code from svn server
+
+    Usage : $0 
+
+    options:
+    [--help] Show help message
+
+    example: $0 
+"
+}
+
+get_opts(){
+    opts=$(getopt -o h --long help -- "$@")     
+    if [ $? -ne 0 ];then
+        usage 
+        exit 1
+    fi
+
+    eval set -- "$opts"
+    while true 
+    do
+        case "$1" in 
+            -h|--help)
+                usage
+                exit 0
+                ;;
+            --)
+                shift
+                break
+                ;;
+            *)
+                usage
+                exit 1
+                ;;
+        esac
+    done
+    if [ $# -ne 3 ];then
+        usage
+        exit 1
+    fi
+    PRODUCT_NAME=$1
+    if [ ! -f $CUR_DIR/gn_project/$PRODUCT_NAME.mk ];then
+        echo "$PRODUCT_NAME: Without this product name in gn_project dir"
+        exit 2
+    fi
+
+    AP_IMAGE_V1=$2
+    AP_IMAGE_V2=$3
+    if [ ! -e "$AP_IMAGE_V1" -o ! -e "$AP_IMAGE_V1"  ] ;then
+        echo "$AP_IMAGE_V1: file not exist"
+        exit 3
+    fi
+
+    AP_IMAGE_NAME_V1=$(basename $AP_IMAGE_V1)
+    AP_IMAGE_DIR_V1=$(dirname $AP_IMAGE_V1)
+    local mp_v1
+    mp_v1=$(echo ${AP_IMAGE_NAME_V1##*T})
+    mp_v1=$(echo ${mp_v1%_tmp.zip*})
+    MP_IMAGE_PATH_V1=${AP_IMAGE_DIR_V1}/${PRODUCT_NAME}_T${mp_v1}_MP
+
+    AP_IMAGE_NAME_V2=$(basename $AP_IMAGE_V2)
+    AP_IMAGE_DIR_V2=$(dirname $AP_IMAGE_V2)
+    local mp_v2
+    mp_v2=$(echo ${AP_IMAGE_NAME_V2##*T})
+    mp_v2=$(echo ${mp_v2%_tmp.zip*})
+    MP_IMAGE_PATH_V2=${AP_IMAGE_DIR_V2}/${PRODUCT_NAME}_T${mp_v2}_MP
+}
+
+make_inc_ota(){
+    local output_image_name
+    local ap_image_old_version=$(echo ${AP_IMAGE_NAME_V1}|awk -F"_" '{print $4"_"$5}')
+    local ap_image_new_version=$(echo ${AP_IMAGE_NAME_V2}|awk -F"_" '{print $4"_"$5}')
+    output_image_name=${PRODUCT_NAME}_update_${ap_image_new_version}_${ap_image_old_version}.zip
+    output_image_dir=$AP_IMAGE_DIR_V2/../ota
+    if [ -f $CUR_DIR/gn_project/tools/generate_delta.sh ] ;then
+        $CUR_DIR/gn_project/tools/generate_delta.sh -t incremental -d . -i $AP_IMAGE_V1 -i $AP_IMAGE_V2 -m $MP_IMAGE_PATH_V1 -m $MP_IMAGE_PATH_V2 -o $output_image_dir/$output_image_name
+    fi
+}
+
+CUR_DIR=`pwd`
+AP_IMAGE_NAME_V1=
+AP_IMAGE_NAME_V2=
+
+main(){
+    get_opts "$@" 
+    make_inc_ota
+}
+
+main "$@"
+

@@ -1,0 +1,72 @@
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01349154      Opened     luly       上传1.5baseline固件
+CR01349166      Opened     licz       sensor porting
+CR01350267      Resolved   lizhi      前置摄像头点亮
+CR01350422      Opened     zhongxiangling 提交hall开关代码
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0215
+Previous tag: TAG_NBL8905A_T0213
+Code difference: svn diff -r 530:521 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01338012      Opened     caoml      8905lcd
+CR01348512      Coded      wudp       TLC Flash：低温-20度播放视频压力，测试机自动关机（附log）
+CR01350267      Resolved   lizhi      前置摄像头点亮
+CR01350653      Resolved   pangfei    添加ov13860 driver
+CR01350676      Resolved   yezg       remove DEBUG configs
+CR01354742      Opened     pangfei    ov13860 driver
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0217
+Previous tag: TAG_NBL8905A_T0215
+Code difference: svn diff -r 540:532 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01338012      Opened     caoml      8905lcd
+CR01339243      Opened     liusb      【TP】S7020 porting
+CR01342189      Coded      huangzhuolin 蓝牙听歌接听完电话后，挂断瞬间歌声从喇叭串出来
+CR01355605      Resolved   chuqf      修改8910项目的log输出级别
+CR01355687      Resolved   wudp       导入电池温度曲线
+CR01355895      Opened     moxz       调试8905的电源
+CR01356938      Coded      huangzhuolin 8910新机MMI音频回路回声明显。
+CR01358490      Coded      yezg       open DEBUG_INFO
+CR01358769      Coded      huangzhuolin 语音通话切换到免提模式后前面10多秒声音偏小
+CR01358850      Coded      yezg       限制输入tp是的boost频率
+CR01358868      Opened     huangzhuolin 按键音随机有pop音
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0219
+Previous tag: TAG_NBL8905A_T0217
+Code difference: svn diff -r 559:542 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01347390      Resolved   wudp       logkit工具开启QXDMlog，log长时间抓取后，QXDMlog信息丢失
+CR01358579      Resolved   huangzhuolin QQ视频通话，只能用免提，不能切换到听筒模式。
+CR01359943      Opened     luly       上传欧非C5固件
+CR01360149      Opened     xionglin   ES9018 HiFi Debug.
+CR01360200      Resolved   pangfei    ov13860未编译效果库
+CR01360387      Opened     yanghm     修改qcn：修改EINT_SIM2对应的GPIO
+CR01360400      Opened     liuxw      优化GSM传导功率，调整NV
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0221
+Previous tag: TAG_NBL8905A_T0219
+Code difference: svn diff -r 575:561 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01349166      Opened     licz       sensor porting
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0223
+Previous tag: TAG_NBL8905A_T0221
+Code difference: svn diff -r 580:577 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01361516      Coded      pangfei    添加闪光灯驱动
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0225
+Previous tag: TAG_NBL8905A_T0223
+Code difference: svn diff -r 587:582 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================

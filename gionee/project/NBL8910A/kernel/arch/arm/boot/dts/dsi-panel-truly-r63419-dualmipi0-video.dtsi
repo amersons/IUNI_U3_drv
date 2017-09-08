@@ -1,0 +1,142 @@
+/* Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+&mdss_mdp {
+	dsi_dual_truly_r63419_video_0: qcom,mdss_dsi_truly_r63419_wqhd_dualmipi0_video{
+		qcom,mdss-dsi-panel-name = "truly Dual 0 video mode dsi panel";
+		qcom,mdss-dsi-panel-controller = <&mdss_dsi0>;
+		qcom,mdss-dsi-panel-type = "dsi_video_mode";
+		qcom,mdss-dsi-panel-destination = "display_1";
+		qcom,mdss-dsi-panel-framerate = <60>;
+		qcom,mdss-dsi-virtual-channel-id = <0>;
+		qcom,mdss-dsi-stream = <0>;
+		qcom,mdss-dsi-panel-width = <720>;
+		qcom,mdss-dsi-panel-height = <2560>;
+		qcom,mdss-dsi-h-front-porch = <156>;
+		qcom,mdss-dsi-h-back-porch = <44>;
+		qcom,mdss-dsi-h-pulse-width = <16>;
+		qcom,mdss-dsi-h-sync-skew = <0>;
+		qcom,mdss-dsi-v-back-porch = <4>;
+		qcom,mdss-dsi-v-front-porch = <8>;
+		qcom,mdss-dsi-v-pulse-width = <4>;
+		qcom,mdss-dsi-h-left-border = <0>;
+		qcom,mdss-dsi-h-right-border = <0>;
+		qcom,mdss-dsi-v-top-border = <0>;
+		qcom,mdss-dsi-v-bottom-border = <0>;
+		qcom,mdss-dsi-bpp = <24>;
+		qcom,mdss-dsi-color-order = "rgb_swap_rgb";
+		qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_lm3630";
+		qcom,mdss-dsi-underflow-color = <0xff>;
+		qcom,mdss-dsi-border-color = <0>;
+		qcom,mdss-dsi-h-sync-pulse = <0>;
+		qcom,mdss-dsi-traffic-mode = "burst_mode";
+		qcom,mdss-dsi-lane-map = "lane_map_0123";
+		qcom,mdss-dsi-bllp-eof-power-mode;
+		qcom,mdss-dsi-bllp-power-mode;
+		qcom,mdss-dsi-lane-0-state;
+		qcom,mdss-dsi-lane-1-state;
+		qcom,mdss-dsi-lane-2-state;
+		qcom,mdss-dsi-lane-3-state;
+		qcom,mdss-dsi-panel-timings = [cd 34 24 00 64 68 28 38 2a 03 04 00];
+		qcom,mdss-dsi-reset-sequence = <1 200>, <0 200>, <1 20>;
+		qcom,mdss-dsi-t-clk-post = <0x28>;
+		qcom,mdss-dsi-t-clk-pre = <0x27>;
+		qcom,mdss-dsi-bl-max-level = <255>;
+		qcom,mdss-dsi-dma-trigger = "trigger_sw";
+		qcom,mdss-dsi-mdp-trigger = "none";
+
+
+		qcom,mdss-dsi-on-command = [
+			29 01 00 00 00 00 02 
+				b0 00
+			29 01 00 00 00 00 02 
+				d6 01
+			29 01 00 00 00 00 02 
+				b4 00
+			29 01 00 00 00 00 04
+                                b3 18 00 00
+			29 01 00 00 00 00 03
+                                b6 3a d3 
+			29 01 00 00 00 00 08
+				b8 57 3d 19 1e 0a 50 50
+			29 01 00 00 00 00 08 
+				b9 6f 3d 28 3c 14 c8 c8
+			29 01 00 00 00 00 08 
+				ba b5 32 41 64 23 a0 a0
+			29 01 00 00 00 00 02 
+				be 04
+			29 01 00 00 00 00 04 
+				c3 00 00 00
+			29 01 00 00 00 00 02 
+				c5 00
+			29 01 00 00 00 00 05 
+				c0 00 00 00 00
+			29 01 00 00 00 00 24 
+				C1 04 61 00 30 29 10 19 63 61 B4 E6 
+				DC 7B EF 39 D7 DA 08 8C B1 08 54 82 
+				00 00 00 00 00 02 63 27 03 00 FF 11
+			29 01 00 00 00 00 09
+				C2 08 0A 00 08 08 F0 00 04
+			29 01 00 00 00 00 0f
+				C4 70 00 00 00 00 00 00 00 00 00 00 01 05 01
+			29 01 00 00 00 00 16
+				C6 5A 00 2D 03 01 02 01 00 00 00 00 00 00 00 00 00 00 06 15 08 5A
+			29 01 00 00 00 00 1f
+				C7 02 0D 14 1E 2C 3B 46 57 3C 44 50 5D 68 6F 7B 02 0D 14 1E 2C 3B 46 57 3C 44 50 5D 68 6F 7B
+			29 01 00 00 00 00 14
+				C8 01 00 FE 02 FB b0 00 00 00 02 FD fc 00 00 F9 02 02 Fc 00
+			29 01 00 00 00 00 10
+				CB FF FF FF FF 00 00 00 00 54 E0 07 2A e0 00 00
+			29 01 00 00 00 00 02
+				cc 32
+			29 01 00 00 00 00 0e
+				D7 82 FF 21 8E 8C F1 87 3F 7E 10 00 00 8F
+			29 01 00 00 00 00 03
+				D9 00 00
+			29 01 00 00 00 00 05
+				D0 11 17 14 FD
+			29 01 00 00 00 00 11
+				D2 CD 2B 2B 33 12 33 33 33 77 77 33 33 33 00 00 00
+			29 01 00 00 00 00 08
+				D5 06 00 00 01 49 01 49
+			/* Set Column address */
+			39 01 00 00 00 00 05 
+				2a 00 00 05 9f
+			39 01 00 00 00 00 05 
+				2b 00 00 09 ff
+			/* Set page address */
+			15 01 00 00 00 00 02 
+				35 00
+			/* Set tear on */
+			15 01 00 00 00 00 02 
+				51 ff
+			/* write display brightness */
+			15 01 00 00 00 00 02 
+				53 24
+				 /* write control brightness */
+			15 01 00 00 00 00 02 
+				55 83
+			/* CABC brightness */
+			29 01 00 00 00 00 02 
+				b0 03
+			05 01 00 00 10 00 02
+				29 00
+			/* Set display on, wait 16ms */
+			05 01 00 00 78 00 02 
+				11 00
+			];
+		qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
+		qcom,mdss-dsi-off-command = [05 01 00 00 32 00 02 28 00
+					05 01 00 00 78 00 02 10 00];
+		qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
+	};
+};

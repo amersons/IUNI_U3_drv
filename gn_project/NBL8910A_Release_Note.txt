@@ -1,0 +1,50 @@
+==================
+Build Notes
+==================
+1.版本目的:
+验证
+2.修改的重大问题点:
+验证
+3.测试重点:
+验证
+4.应用数据库是否改变:
+否
+
+==================
+Release Location
+==================
+FTP://18.8.8.2/software_release/NBL8910A/NBL8910A01_A_CTA_T0401.zip
+
+==================
+Software Version Description
+==================
+
+
+==================
+CR List
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974_study/trunk
+CR01256433	Resolved	NBL8910A	wangmeng	修改CTA改动	svn revision(1021)
+CR01274499	Resolved	NBL8910A	huanggq	CTA：联系人列表无法区分卡联系人和手机联系人	svn revision(1027)
+CR01283860	Opened	NBL8910A	jiantf	CTA：设置：手动注册到移动4G网络，无法呼出通话	svn revision(1009)
+CR01285561	Coded	NBL8910A	luly	优化信利tp效果  -- 1	svn revision(1010,1011)
+CR01287073	Opened	NBL8910A	wangmeng	upgrade LNX.LA.3.5.2.2-01610-8x74.0	svn revision(1013,1014,1033)
+CR01287211	Opened	NBL8910A	xiangzhong	升级ap基线到Post-CS 3.0.30426.1	svn revision(1026,1015)
+CR01287235	Opened	NBL8910A	luly	升级ap代码--6.10	svn revision(1016,1023,1017)
+CR01287257	Opened	NBL8910A	liuxw	升级ap基线到Post-CS 3.0.30426.1 MODEM相关同步更新	svn revision(1019,1031)
+CR01287496	Opened	NBL8910A	zhaocq	camera更新基线Post-CS 3.0.30426.1	svn revision(1020)
+CR01287498	Coded	NBL8910A	huangzhuolin	8910新基线代码merge	svn revision(1024)
+CR01287522	Coded	NBL8910A	chuqf	8910升级ap测	svn revision(1022,1025)
+CR01287751	Opened	NBL8910A	wudp	升级NBL8910A代码到Post-CS 3.0.30426.1	svn revision(1028,1029)
+CR01287854	Coded	NBL8910A	liujiang	[NBL8910] 代码升级	svn revision(1030)
+CR01287943	Opened	NBL8910A	xiangzhong	信利LCD白平衡调整	svn revision(1032)
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974_study/tags/TAG_NBL8910A_T0401
+Previous tag: TAG_NBL8910A_T0307
+Code difference: svn diff -r 1033:1008 http://192.168.110.97/svn/android_qc_kk_qct8974_study/trunk
+
+[Repository Url]: http://192.168.110.97/svn/packages_qc_kk_qct8974_study/trunk
+CR01287073	Opened	NBL8910A	wangmeng	upgrade LNX.LA.3.5.2.2-01610-8x74.0	svn revision(57)
+Tag url: http://192.168.110.97/svn/packages_qc_kk_qct8974_study/tags/TAG_NBL8910A_T0401
+Previous tag: TAG_NBL8910A_T0307
+Code difference: svn diff -r 57:56 http://192.168.110.97/svn/packages_qc_kk_qct8974_study/trunk
+

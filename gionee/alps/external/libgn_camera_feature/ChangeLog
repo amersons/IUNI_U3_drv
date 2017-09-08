@@ -1,0 +1,89 @@
+/********************************************************************************************************
+ * 这个文件是用来跟踪对这个库的修改记录:
+ * This file is used to record the modified log:
+ ********************************************************************************************************/
+ 
+ 2014-03-05 wutangzhi
+ CR Number : []
+ Modify log:
+ 1. Update the scene detection version to ARCSOFT_PICAUTO_1.0.0.6_ANDROID_FOR_GIONEE_02112017
+ 2. Optmize the memory for FaceBeauty and v-sign shot.
+ 3. Readjust the GNCameraFeature architecture.
+ 4. Add the Arcsoft live effect feature accrording to Arcsoft_filterSDK_for_Gionee_v2.1.0.10_20140227
+
+ 2014-03-10 wutangzhi
+ CR Number : []
+ Modify log:
+ 1. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.11_20140307
+
+ 2014-03-19 wutangzhi
+ CR Number : []
+ Modify log:
+ 1. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.14_20140317
+
+ 2014-03-26 wutangzhi
+ CR Number : []
+ Modify log:
+ 1. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.15_20140326
+
+ 2014-04-08 wutangzhi
+ CR Number : []
+ Modify log:
+ 1. Update the scene detection version to ARCSOFT_PICAUTO_1.7.12080.62_ANDROID_FOR_GIONEE_04012014
+ 2. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.17_20140403
+
+ 2014-04-29 wutangzhi
+ CR Number : []
+ Modify log:
+ 1. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.22_20140428
+
+ 2014-07-08 wutangzhi
+ CR Number : []
+ Modify log:
+ 1. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.25_20140625
+
+ 2014-08-29 zhuangxiaojian
+ CR Number : []
+ Modify log:
+ 1. Update beautyshot version to ARCSOFT_BEAUTYSHOT_2.5.12021.16_ANDROID_ARM_FOR_GIONEE_08292014
+
+ 2014-09-04 zhuangxiaojian
+ CR Number : []
+ Modify log:
+ 1. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.28_20140902
+
+ 2014-09-25 zhuangxiaojian
+ CR Number : [CR01390926]
+ Modify log:
+ 1. Modify the face beauty API and add FaceBeautyParam struct.
+
+ 2014-09-25 zhuangxiaojian
+ CR Number : [CR01390945]
+ Modify log:
+ 1. Fix the "green line" problem with night shot mode.
+
+ 2014-10-15 zhuangxiaojian
+ CR Number : [CR01392017]
+ Modify log:
+ 1. Fix the problem "Bad capture result of filter" because of the change in CR01390945.
+
+ 2014-10-15 zhuangxiaojian
+ CR Number : [CR01396392]
+ Modify log:
+ 1. Update live effect version to Arcsoft_filterSDK_for_Gionee_v2.1.0.28_20140910
+
+ 2014-10-25 zhuangxiaojian
+ CR Number : [CR01398725]
+ Modify log:
+ 1. Add ageGender detection feature based on ARCSOFT_BEAUTYSHOT_2.5.12021.19_ANDROID_ARM_FOR_GIONEE_10162014
+
+ 2014-10-31 zhuangxiaojian
+ CR Number : [CR01404903]
+ Modify log:
+ 1. Add face rect for ageGender detection feature
+ 2. Adjust the face beauty architecture.
+
+ 2014-11-24 zhuangxiaojian
+ CR Number : [CR01404903]
+ Modify log:
+ 1. Add Arcsoft piczoom feature based on ARCSOFT_PICZOOM_2.0.12021.56_ANDROID_ARM_FOR_Gionee_11132014

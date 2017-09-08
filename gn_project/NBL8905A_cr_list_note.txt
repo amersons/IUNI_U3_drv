@@ -1,0 +1,33 @@
+==================
+
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01338012	Opened	NBL8905A	caoml	8905lcd	svn revision(506)
+CR01339243	Opened	NBL8905A	liusb	【TP】S7020 porting	svn revision(512,511)
+CR01341238	Coded	NBL8910A	wudp	49#测试机放电至自动关机后，插入充电器后开机，电量显示22%左右。（附log）	svn revision(507)
+CR01341517	Coded	NBL8910A	luly	上传信利B4tp固件到iuni流，上传欧非B3版本到192流	svn revision(509,508)
+CR01344932	Coded	NBL8910A	chuqf	使用360手机助手同步图片时手机进入dump【一次】	svn revision(510)
+CR01347375	Opened	NBL8905A	huangzhenping	8905修改	svn revision(513)
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0211
+Previous tag: TAG_NBL8905A_T0201
+Code difference: svn diff -r 513:505 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+CR01347190	Opened	NBL8910A	huangzhuolin	待机过程中进入dump	svn revision(519)
+CR01348220	Opened	NBL8905A	yanghm	提交NBL8905A01_A项目qcn	svn revision(518)
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0213
+Previous tag: TAG_NBL8905A_T0211
+Code difference: svn diff -r 519:515 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0227
+Previous tag: TAG_NBL8905A_T0225
+Code difference: svn diff -r 592:589 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+==================

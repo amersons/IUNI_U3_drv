@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="hello">Hello World, EngineerMode!</string>
+	<string name="app_name">BtTxTest</string>
+	<string name="Settings">Settings</string>
+	
+	<!--BatteryLog part-->
+	<string name="BatteryLog">BatteryLog</string>
+	<string name="Log_Record_Interval">Interval Of Info Record [1-100]:</string>
+	<string name="battery_info_Log">Battery Info Record:</string>
+	<string name="battery_info_Log_Start">Start</string>
+	<string name="battery_info_Log_End">Stop</string>
+	<string name="battery_info_10">10</string>
+	<string name="battery_info_s">s</string>
+
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_label">Battery status:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_scale_label">Battery scale:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_level_label">Battery level:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_label">Battery health:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_technology_label">Battery technology:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_voltage_label">Battery voltage:</string>
+    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_voltage_units">mV</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_temperature_label">Battery temperature:</string>
+    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_temperature_units">\u00B0 C</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_uptime">Time since boot:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_awake_battery">Awake time on battery:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_awake_plugged">Awake time when charging:</string>
+    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_screen_on">Screen ON time:</string>
+    
+
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_unknown">Unknown</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_charging">Charging</string>
+    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_charging_ac">(AC)</string>
+    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_charging_usb">(USB)</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_discharging">Discharging</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_not_charging">Not charging</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_status_full">Full</string>
+
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_unknown">Unknown</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_good">Good</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_overheat">Overheat</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_dead">Dead</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_over_voltage">Over voltage</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_unspecified_failure">Unknown error</string>
+    
+    <!--GPRS part-->    
+    <string name="GPRS">GPRS</string>
+    <string name="SIM1">SIM1</string>
+    <string name="SIM2">SIM2</string>
+    <string name="IMEI">Write IMEI</string>
+    <string name="GPRS_Attached">Attached</string>
+    <string name="GPRS_Detached">Detached</string>
+    <string name="GPRS_FD">Fast Dormancy</string>
+    <string name="GPRS_1st_PDP">1st PDP</string>
+    <string name="GPRS_2nd_PDP">2nd PDP</string>
+    <string name="GPRS_As_Primary">As Primary</string>
+    <string name="GPRS_As_Secondary">As Secondary</string>
+    <string name="GPRS_Activate_PDP">Activate PDP</string>
+    <string name="GPRS_Deactivate_PDP">Deactivate PDP</string>
+    <string name="GPRS_1000">1000</string>
+    <string name="GPRS_Send_Data">Send Data</string>
+    <string name="GPRS_FD_SCREEN_ON">Set FD timer for screen on</string>
+    <string name="GPRS_FD_SCREEN_OFF">Set FD timer for screen off</string>
+    
+    <!--TouchScreen part-->
+    <string name="TouchScreen">TouchScreen</string>
+    <string name="TouchScreen_HandWriting">TouchScreen_HandWriting</string>
+    <string name="TouchScreen_Verification">TouchScreen_Verification</string>
+    <string name="TouchScreen_VerificationPoint">TouchScreen_VerificationPoint</string>
+    <string name="TouchScreen_VerificationLine">TouchScreen_VerificationLine</string>
+    <string name="TouchScreen_VerificationShaking">TouchScreen_VerificationShaking</string>
+    <string name="TouchScreen_MultiTouch">TouchScreen_MultiTouch</string>
+    <string name="TouchScreen_Settings_TextValue">The value</string>
+    <string name="TouchScreen_Settings_TextSpinner">Category</string>
+    <string name="TouchScreen_Settings_TextSet">Set</string>
+    <string name="TouchScreen_Settings">Settings</string>
+    <string name="TouchScreen_Settings_Value">0</string>
+    <string name="TouchScreen_Settings_sdcard">OFF</string>
+    <string name="TouchScreen_Settings_uart">OFF</string>
+    <string name="TouchScreen_Settings_TextUart">Enable Uart Log</string>
+    <string name="TouchScreen_Settings_TextSDcard">Enable SD card Log</string>
+    <!--Display part-->
+    <string name="Display">Display</string>
+    <string name="Display_lcd_Text">Back Light</string>
+    <string name="Display_lcd_on">LCD ON</string>
+    <string name="Display_lcd_off">LCD OFF</string>
+    <string name="Display_lcm_Text">LCM Controller</string>
+    <string name="Display_lcm_on">LCM ON</string>
+    <string name="Display_lcm_off">LCM OFF</string>
+    <string name="Display_set_Text">PWM duty: 0~63</string>
+    <string name="Display_set">Set</string>
+    <string name="Display_Edit_Value">0</string>
+    
+    <!--Memory NAND part-->
+    <string name="Memory">Memory</string>
+    <string name="NAND_Flash">NAND_Flash</string>
+    <string name="EMI_Register">EMI_Register</string>
+    <string name="comm_info">Common Info</string>
+    <string name="file_sys_info">File System Info</string>
+    <string name="partition_info">Partition Info</string>
+    
+     <!--Power PMU part-->
+    <string name="Power">Power</string>
+    <string name="PMU">PMU</string>
+    <string name="ChargeBattery">ChargeBattery</string>
+    <string name="pmu_btn_get">Get</string>
+    <string name="pmu_btn_set">Set</string>
+    <string name="address_text">Address[Hex input:Fz0xxxxx]->[z00xxxxx]</string>
+    <string name="warning_text">WARNING: Wrong set may cause system error!</string>
+    <string name="value_text">Value</string>
+    <string name="pmu_info_text">PMU Info</string>
+    <string name="pmu_reg">PMU Register</string>
+    <string name="battery_charge_info_text">N</string>
+    
+    <!--IO EINT part-->
+    <string name="IO">IO</string>
+    <string name="EINT">EINT</string>
+    <string name="GPIO">GPIO</string>
+    <string name="MSDC">MSDC</string>
+    <string name="MSDC_Get">Get</string>
+    <string name="MSDC_Set">Set</string>
+    <string name="MSDC_Current_cmd_spininer">Data current</string>
+    <string name="MSDC_Current_data_spininer">Command current</string>
+    <string name="EINT_edit_Text">EINT NO: #</string>
+    <string name="EINT_edit">0</string>
+    <string name="EINT_query">Query</string>
+    <string name="EINT_sensitivity_Text">Sensitivity[level/edge]: </string>
+    <string name="EINT_polarity_Text">Polarity[high/low]: </string>
+    <!--IO GPIO part-->
+    <string name="GPIO_Setno_Text">GPIO No#</string>
+    <string name="GPIO_Setnomax_Text">MaxNumber:</string>
+    <string name="GPIO_Direction_Text">Set Direction</string>
+    <string name="GPIO_Direction_In">Input</string>
+    <string name="GPIO_Direction_Out">Output</string>
+    <string name="GPIO_Data_Text">Set Data Level</string>
+    <string name="GPIO_Data_High">High</string>
+    <string name="GPIO_Data_Low">Low</string>
+    <string name="GPIO_Edit_Value">0</string>
+        <!--Baseband part-->
+    <string name="Baseband">Baseband</string>
+    <string name="Baseband_addr_text">Address(Hex)</string>
+    <string name="Baseband_val_text">Value(Hex)</string>
+    <string name="Baseband_Addr">FF</string>
+    <string name="Baseband_Val">0</string>
+    <string name="Baseband_len_text">Block Size(Dec)</string>
+    <string name="Baseband_Len">1</string>
+    <string name="Baseband_Read">Read</string>
+    <string name="Baseband_Write">Write</string>
+    <string name="Baseband_Info">Memory:</string>
+
+    <!-- Sleep Mode Part-->
+		<string name="enable_sleep_mode">Enable SleepMode</string>
+		<string name="disable_sleep_mode">Disable SleepMode</string>
+		<string name="enable_dcm">Enable DCM</string>
+        <string name="disable_dcm">Disable DCM</string>
+        <string name="modem_activity">ModemActivity</string>
+        <string name="sleep_mode">Sleep Mode</string>
+    <string name="dcm">DCM</string>
+        <string name="memory_dump">Memory Dump</string>
+        <string name="on">ON</string>
+        <string name="off">OFF</string>
+
+    <!--CPU Freq test part-->
+    <string name="Cpufreq">CPU Freq Test</string>
+    <string name="CpuFreq_BtnStartTest">START</string>
+    <string name="CpuFreq_BtnStopTest">STOP</string>
+    <string name="CpuFreq_BtnCurrentTest">START[Never Returned]</string>
+    <string name="CpuFreq_Info">Info:</string>
+    <string name="CpuFreq_BtnStartTest_Text">CPU Freq Test</string>
+    <string name="CpuFreq_BtnStopTest_Text">CPU Freq Test</string>
+    <string name="CpuFreq_BtnCurrentTest_Text">Currenct Test</string>
+
+    <!--SystemLogger part-->
+    <string name="SysLogger">System Logger</string>
+     <string name="syslogger_md">Modem</string>
+    <string name="syslogger_mobile">Mobile</string>
+    <string name="syslogger_net">Network</string>  
+    <string name="Error_info">Please check whether package was lost.</string>   
+    <!--Audio part-->
+    <string name="Audio">Audio</string>
+    <string name="Audio_ModeSetting">Audio_ModeSetting</string>
+    <string name="Audio_ModeSetting_TextView">Value is 0~255</string>
+    <string name="Audio_ModeSetting_EditText">0</string>
+    <string name="Audio_ModeSetting_Button">Set</string>
+    <string name="Audio_SpeechEnhancement">Audio_SpeechEnhancement</string>
+    <string name="Audio_SpEnhancement_TextView">Value is 0~100</string>
+    <string name="Audio_SpEnhancement_EditText">0</string>
+    <string name="Audio_SpEnhancement_Button">Set</string>
+    <string name="Audio_DebugInfo">Audio_DebugInfo</string>
+    <string name="Audio_DebugInfo_ParameterText">Please choose the parameter:</string>
+    <string name="Audio_DebugInfo_ValueText">Please input the value:</string>
+    <string name="Audio_DebugInfo_EditText">0</string>
+    <string name="Audio_DebugInfo_Button">Set</string>
+    <string name="Audio_SpeechLogger">Audio_SpeechLogger</string>
+    <string name="Audio_SpeechLogger_EnableText">Enable speech logger:</string>
+    <string name="Audio_SpeechLogger_Enable">Enable speech log</string>
+    <string name="Audio_SpeechLogger_FileText">File location:/sdcard/VM_log</string>
+    <string name="Audio_SpeechLogger_LocationText">File location:/sdcard/speechlog</string>
+    <string name="Audio_SpeechLogger_Play">Play log</string>
+    <string name="Audio_LogPlayer">Audio_LogPlayer</string>
+    <string name="Audio_Level_Text">Level</string>
+    <string name="Audio_VOIPLogger_Enable">Enable VOIP switch</string>
+    <string name="Audio_VOIPLogger_EnableText">Enable VOIP logger:</string>
+        <string name="Audio_MaxVol_Text">Max Vol. 0~160 </string>
+    <string name="Audio_MaxVol_Set">Set</string>
+    <string name="Audio_VOIPLogger_Info">File Location: /sdcard/VOIP_DebugInfo</string>
+    <string name="Audio_CTM4WAYLogger_EnableText">Enable CTM4WAY Logger</string>
+    <string name="Audio_CTM4WAYLogger_Enable">Enable</string>
+    
+   <string name="Audio_KTone">K Tone</string> 
+    <string name="Audio_KTone_StopBtn">Stop</string>
+    <string name="Audio_KTone_StartBtn">Start</string>
+    <string name="Audio_KTone_Freq">Frequency</string>
+    <string name="Audio_Fir_Title">Current FIR Type</string>
+    <string name="Audio_ModeSetting_Title">Type</string>
+    <!--Camera part-->
+    <string name="Camera">Camera</string>
+    <string name="Camera_Preview">Camera_Preview</string>
+    <string name="capture">Capture</string>
+    
+    <!--WiFi part-->
+    <string name="WiFi">WiFi</string>
+    <string name="WiFi_Tx">WiFi_Tx</string>
+    <string name="WiFi_Rx">WiFi_Rx</string>
+    <string name="WiFi_EEPROM">WiFi_NVRAM</string>
+    <string name="WiFi_Temperature_Sensor">WiFi_Temperature_Sensor</string>
+    <string name="WiFi_MCR">WiFi_MCR</string>
+    <string name="WiFi_Channel_Text">Channel:</string>
+    <string name="WiFi_Signal">Signal Mode:</string>
+    <string name="WiFi_Pkt_Text">Pkt length:</string>
+    <string name="WiFi_Pkt_Edit">1024</string>
+    <string name="WiFi_Pktcnt_Text">Pkt cnt:</string>
+    <string name="WiFi_Pktcnt_Edit">3000</string>
+    <string name="WiFi_Tx_Text">Tx Power(dBm):</string>
+    <string name="WiFi_Tx_Edit">22</string>
+
+    <string name="WiFi_Tx_Gain_Edit">22</string>
+    <string name="WiFi_Rate_Text">Rate:</string>
+    <string name="WiFi_Power_Text">Power:</string>
+    <string name="WiFi_XtalTrim_Text">Xtal Trim:</string>
+    <string name="WiFi_XtalTrim_Edit"></string>
+    <string name="WiFi_XtalTrim_Read">Read</string>
+    <string name="WiFi_XtalTrim_Write">Write</string>
+    <string name="WiFi_ALC">ALC Function for Normal Packet Tx/Rx</string>
+    <string name="WiFi_Bandwidth">Bandwidth:</string>
+    <string name="WiFi_Guard_Interval">Guard interval:</string>
+    
+    <string name="WiFi_Go">Go</string>
+    <string name="WiFi_Stop">Stop</string>
+    <string name="Bt_Test_Mode">BT Test Mode</string>
+    <string name="WiFi_FCS_Text">FCS ERR:</string>
+    <string name="WiFi_FCS_Content">30</string>
+    <string name="WiFi_Rx_Text">RX OK:</string>
+    <string name="WiFi_Rx_Content">0</string>
+    <string name="WiFi_PER_Text">PER:</string>
+    <string name="WiFi_PER_Content">100</string>
+    <string name="WiFi_WordAccess_Text">WORD Access:</string>
+    <string name="WiFi_addr_Text">addr(h,byte):</string>
+    <string name="WiFi_addr_Content"></string>
+    <string name="WiFi_value_Text">value(h):</string>
+    <string name="WiFi_value_Content"></string>
+    <string name="WiFi_Read_Word">Read</string>
+    <string name="WiFi_Write_Word">Write</string>
+    <string name="WiFi_StringAccess_Text">Byte String Access:</string>
+    <string name="WiFi_addr_Text_String">addr(h,byte):</string>
+    <string name="WiFi_addr_Content_String"></string>
+    <string name="WiFi_length_Text_String">length(byte):</string>
+    <string name="WiFi_length_Content_String"></string>
+    <string name="WiFi_value_Text_String">value(h):</string>
+    <string name="WiFi_value_Content_String"></string>
+    <string name="WiFi_SaveBtn">NVRAM Save As File</string>
+    <string name="WiFi_BurnBtn">Burn From File</string>
+    <string name="WiFi_ReadAllBtn">Read All</string>
+    <string name="WiFi_ClearBtn">Clear</string>
+    <string name="WiFi_Misc_Text">Temperature sensor measurement:</string>
+    <string name="WiFi_Misc_GoBtn">Go</string>
+    <string name="WiFi_Misc_StopBtn">Stop</string>
+    <string name="WiFi_Misc_ClearBtn">Clear</string>
+    <string name="WiFi_MCR_Text">MCR:</string>
+    <string name="WiFi_MCR_Addr_Text">Addr(h):</string>
+    <string name="WiFi_MCR_Value_Text">Value(h):</string>
+    <string name="WiFi_MCR_ReadBtn">Read</string>
+    <string name="WiFi_MCR_WriteBtn">Write</string>
+    <string name="WiFi_EEPROM_SAVE_DIALOG_TITLE">Save as</string>
+    <string name="WiFi_EEPROM_SAVE_DIR">Please input a file name</string>
+    <string name="WiFi_EEPROM_SAVE_DIR_DONE">OK</string>
+    <string name="File_List_Title">Please select a file to burn</string>
+    <!--wifi DPD calbriation-->
+    <string name="WiFi_DPD_Text">DPD calibration:</string>
+    <string name="WiFi_DPD_Calibration">calibration</string>
+    <string name="WiFi_DPD_Import">import DPD parameters from file</string>
+    <string name="WiFi_DPD_Read">read DPD parameters</string>
+    <string name="WiFi_DPD_Save">save DPD parameters to file</string>
+    <string name="WiFi_DPD_Info"></string>
+
+    <!--NetworkInfo part-->
+    <string name="NetworkInfo">NetworkInfo</string>
+    <string name="NetworkInfo_Info">NetworkInfo_Info</string>
+    <string name="NetworkInfo_Cell">RR Cell Sel</string>
+    <string name="NetworkInfo_Ch">RR Ch Dscr</string>
+    <string name="NetworkInfo_Ctrl">RR Ctrl chan</string>
+    <string name="NetworkInfo_RACH">RR RACH Ctrl</string>
+    <string name="NetworkInfo_LAI">RR LAI Info</string>
+    <string name="NetworkInfo_Radio">RR Radio Link</string>
+    <string name="NetworkInfo_Meas">RR Meas Rep</string>
+    <string name="NetworkInfo_Ca">RR Ca List</string>
+    <string name="NetworkInfo_Control">RR Control Msg</string>
+    <string name="NetworkInfo_SI2Q">RR SI2Q Info</string>
+    <string name="NetworkInfo_MI">RR MI Info</string>
+    <string name="NetworkInfo_BLK">RR BLK Info</string>
+    <string name="NetworkInfo_TBF">RR TBF Info</string>
+    <string name="NetworkInfo_GPRS">RR GPRS Gen</string>
+    <string name="NetworkInfo_PageUp">PageUp</string>
+    <string name="NetworkInfo_PageDown">PageDown</string>
+    
+    <string name="NetworkInfo_3GMmEmInfo">3GMmEmInfo</string>
+    <string name="NetworkInfo_3GTcmMmiEmInfo">3GTcmMmiEmInfo</string>
+    <string name="NetworkInfo_3GCsceEMServCellSStatusInd">3GCsceEMServCellSStatusInd</string>
+    <string name="NetworkInfo_3GCsceEmInfoMultiPlmn">3GCsceEmInfoMultiPlmn</string>
+    <string name="NetworkInfo_3GMemeEmInfoUmtsCellStatus">3GMemeEmInfoUmtsCellStatus</string>
+    <string name="NetworkInfo_3GMemeEmPeriodicBlerReportInd">3GMemeEmPeriodicBlerReportInd</string>
+    <string name="NetworkInfo_3GUrrUmtsSrncId">3GUrrUmtsSrncId</string>
+    <string name="NetworkInfo_3GSlceEmPsDataRateStatusInd">3GSlceEmPsDataRateStatusInd</string>
+    <string name="NetworkInfo_3GMemeEmInfoHServCellInd">3GMemeEmInfoHServCellInd</string>
+    
+    <string name="NetworkInfo_3GHandoverSequenceIndStuct">3GHandoverSequenceIndStuct</string>
+    <string name="NetworkInfo_3GUl2EmAdmPoolStatusIndStruct">3GUl2EmAdmPoolStatusIndStruct</string>
+    <string name="NetworkInfo_3GUl2EmPsDataRateStatusIndStruct">3GUl2EmPsDataRateStatusIndStruct</string>
+    <string name="NetworkInfo_3Gul2EmHsdschReconfigStatusIndStruct">3GUl2EmHsdschReconfigStatusIndStruct</string>
+    <string name="NetworkInfo_3GUl2EmUrlcEventStatusIndStruct">3GUl2EmUrlcEventStatusIndStruct</string>
+    <string name="NetworkInfo_3GUl2EmPeriodicBlerReportInd">3GUl2EmPeriodicBlerReportInd</string>
+    
+    <!--AutoAnswer part-->
+    <string name="AutoAnswer">AutoAnswer</string>
+    
+    <!--YGPS part-->
+    <string name="YGPS">YGPS</string>
+    
+    <!--AGPS part-->
+    <string name="AGPS">AGPS</string>
+    
+    <!--BlutTooth part-->
+    <!--No signal Rx test part-->
+    <string name="BTNSRXTitle">Non-signaling RX Test</string>
+    <string name="NSRX_StrPattern">RX Pattern</string>
+    <string name="NSRX_StrFrequency">RX Frequency:[0,78]</string>
+    <string name="NSRX_StrPocketType">RX Packet Type</string>
+    <string name="NSRX_StrAddress">Tester Address:(Hex)</string>
+    <string name="NSRX_StartTest">Start</string>
+    <string name="NSRX_StrPackCnt">RX Packet Count:</string>
+    <string name="NSRX_StrPackErrRate">Packet Error Rate:</string>
+    <string name="NSRX_StrPackByteCnt">RX Byte Count:</string>
+    <string name="NSRX_StrBitErrRate">Bit Error Rate:</string>
+    <string name="Bluetooth">Bluetooth</string>
+		<!--
+			param of the slide title
+		-->
+		<string name="BluetoothTitle">Bluetooth</string>
+		<string name="BTTXTitle">Bluetooth_Tx</string>
+		<string name="BTTMTitle">Bluetooth_TestMode</string>
+		<string name="BTSSPDMTitle">Bluetooth SSP Debug Mode</string>
+		<string name="BTRxTitle">Bluetooth_Rx</string>
+
+		<!--
+			param in tx only test
+		-->
+		<string name="StrPattern">Tx Pattern:</string>
+		<string name="StrChannel">Channel:</string>
+		<string name="StrFrequency">Tx Frequency:</string>
+		<string name="StrPocketType">Pocket Type:</string>
+		<string name="StrPocketLength">Pocket Length:</string>
+		<string name="emptyStr"></string>
+	<string name="BTTestMode_edit">7</string>
+		<string name="BTTestMode_edit_Text">Power Level: [0, 7]</string>
+		<!--
+			param in rx only test
+		-->
+		<string name="RxPattern">Rx Pattern:</string>
+		<string name="RxChannel">Channel:</string>
+		<string name="RxFrequency">Rx Frequency:</string>
+		<string name="RxPacketType">Pocket Type:</string>
+		<string name="RxDataLength">Data Length:</string>
+		<string name="RxWritten">Written</string>
+		<string name="RxPowerControl">Power ctrl:</string>
+		<string name="RxPollPeriod">Poll period:</string>
+		<string name="RxStart">Start</string>
+		<string name="RxStop">Stop</string>
+		<string name="RxSetPwr">Set</string>
+		<string name="RxAccessCode">Access Code</string>
+		
+		<!--
+			param in test mode
+		-->
+		<string name="strTestMode">
+			<b>Enable test mode</b>
+		</string>
+		<!--
+			param in test mode
+		-->
+		<string name="SSPDebugMode">
+			<b>Enable SSP debug mode</b>
+		</string>
+	
+		<!--
+			Menu item to indicate you are done sending a command and want to save
+			the changes you've made
+		-->
+		<string name="menu_done">Done</string>
+	
+		<!--
+			param in BLE test mode for public
+		-->
+		<string name="BLESet">Set</string>
+		<string name="BLEStart">Start</string>
+		<string name="BLEStop">Stop</string>
+		<string name="BLEScanInterval">Scan Interval:</string>
+		<string name="BLEScanWindow">Scan Window:</string>
+		<string name="BLETimeUnit">*0.625s</string>
+		<string name="BLEOwnAddressType">Own Address Type:</string>
+		<string name="BLEIntervalMin">Interval Min:</string>
+		<string name="BLEIntervalMax">Interval Max:</string>
+		<string name="BLEFilterPolicy">Filter Policy:</string>	
+		<!--
+			param in BLE test mode
+		-->
+		<string name="BLETestMode">BLE TestMode:</string>
+		<string name="BLETxRx"></string>
+		<string name="BLETestModeTx">Tx Test</string>
+		<string name="BLETestModeRx">Rx Test</string>
+		<string name="BLEHoppingSingle"></string>
+		<string name="BLEHopping">Hopping</string>
+		<string name="BLESingle">Single</string>
+		<string name="BLEChannel">Channel:</string>
+		<string name="BLEPattern">Pattern:</string>
+		<string name="BLEContiniousTx">Continious</string>
+		
+		
+		<!--
+			param in BLE normal mode
+		-->
+		<string name="BLENormalModet">BLE NormalMode:</string>
+		<string name="BLEWhiteList">BLE WhiteList:</string>
+		<string name="BLEAdvertise">BLE Advertise:</string>
+		<string name="BLEScan">BLE Scan:</string>
+		<string name="BLEInitiate">BLE Initiate:</string>
+		<!--
+			param in BLE normal mode white list string
+		-->
+		<string name="BLEAddToWhiteList">Add Device To White List</string>
+		<string name="BLERemoveWhiteList">Remove Device From White List</string>
+		<string name="BLEClearWhiteList">Clear White List</string>
+		<string name="BLEHCIReset">HCI reset</string>
+		<string name="BLEMACAddress">MAC Address:</string>
+		<string name="BLEAddressType">Address Type:</string>
+		<!--
+			param in BLE normal mode Initiate string
+		-->
+		<string name="BLEInitiateFilter">Initiate Filter Policy</string>
+		<string name="BLEPeerAddressType">Peer Address Type</string>
+		<string name="BLEPeerAddress">Peer Address:</string>
+		<string name="BLELatency"> Connection Latency:</string>
+		<string name="BLESupervisionTimeout">Supervision Timeout</string>
+		<string name="BLESupervisionTimeUnit">*10s</string>
+		<string name="BLEMaxCELength">Max CE Length:</string>
+		<string name="BLEMinCELength">Min CE Length:</string>
+
+		<!--
+			param in BLE normal mode Scan string
+		-->
+		<string name="BLEScanType">Scan Type:</string>	
+		<string name="BLEScanFilterDuplicate">Filter Duplicate:</string>		
+		<string name="BLEScanResponseData">Scan Response Data:</string>		
+		
+		<!--
+			param in BLE normal mode Advertise string
+		-->
+		<string name="BLEAdvertiseType">Advertising Type:</string>		
+		<string name="BLEDirectAddressType">Direct Address Type:</string>		
+		<string name="BLEDirectAddress">Direct Address:</string>		
+		<string name="BLEChannel37Checkbox">Channel 37</string>		
+		<string name="BLEChannel38Checkbox">Channel 38</string>		
+		<string name="BLEChannel39Checkbox">Channel 39</string>	
+		<string name="BLEAdvertiseData">Advertise Data:</string>		
+		
+		<!--
+			Menu item to indicate you want to stop send a command and NOT save the
+			changes you've made
+		-->
+		<string name="menu_doNotSave">Revert</string>
+        
+        <!-- Video Telephone Part-->
+        <string name="working_mode_normal">Normal Mode</string>
+        <string name="working_mode_media_loopback">Media Loopback</string>
+        <string name="media_loopback_stack">Stack</string>
+        <string name="media_loopback_transceiver">Transceiver</string>
+        <string name="working_mode_network_loopback">Network Loopback</string>
+        <string name="network_loopback_service">Service</string>
+        <string name="network_loopback_stack">Stack</string>
+        <string name="working_mode_test_file">TestFile</string>
+        <string name="audio_channel_adaptation">Audio Channel Adapt</string>
+        <string name="video_channel_adaptation">Video Channel Adapt</string>
+        <string name="video_channel_reverse_data_type">Video Channel Reverse Data Type</string>
+        <string name="multiplex_level">Multiplex Level</string>
+        <string name="video_codec_preference">Video Codec Preference</string>
+        <string name="use_wnsrp">Use WNSRP</string>
+        <string name="terminal_type">Terminal Type</string>
+        <string name="Latency">Latency(ms)</string>
+        <string name="Enable">Enable</string>
+        <string name="Disable">Disable</string>
+        <string name="Set">Set</string>
+        
+        <string name="set_working_mode">Working Mode</string>
+        <string name="my3g324m_configuration">3G324M Configuration</string>
+        <string name="auto_answer">Auto Answer</string>
+        <string name="peer_audio_recorder">Peer Audio Recorder</string>
+        <string name="peer_video_recorder">Peer Video Recorder</string>
+        <string name="media_loopback">MediaLoopback</string>
+        <string name="debug_message">Debug Message</string>
+        <string name="h223_raw_data">H223 Raw Data</string>
+        <string name="log_to_file">Log to File</string>
+        <string name="log_filter">Log Filter</string>
+        <string name="log_filter_verbose">Verbose</string>
+        <string name="log_filter_debug">Debug</string>
+        <string name="log_filter_info">Info</string>
+        <string name="log_filter_warning">Warning</string>
+        <string name="log_filter_error">Error</string>
+        <string name="log_filter_group_1">Group_1</string>
+        <string name="log_filter_group_2">Group_2</string>
+        <string name="log_filter_group_3">Group_3</string>
+        <string name="log_filter_group_4">Group_4</string>
+        <string name="log_filter_group_5">Group_5</string>
+        <string name="log_filter_group_6">Group_6</string>
+        <string name="log_filter_group_7">Group_7</string>
+        <string name="log_filter_group_8">Group_8</string>
+        <string name="log_filter_group_9">Group_9</string>
+        <string name="log_filter_group_10">Group_10</string>
+        
+        <string name="service_raw">Service(Raw)</string>
+        <string name="mal_supported_format">MAL(Supported Format)</string>
+        
+        <string name="ok">OK</string>
+        
+        <string name="menu_set_to_default">Set to default</string>
+        <!-- De-Sense Start -->
+        <string name="desense_activity">DesenseActivity</string>
+        <string name="desense_lcd_activity">DesenseLcdActivity</string>
+        <string name="desense_back_light">DesenseBackLight</string>
+        <string name="desense_classd_activity">DesenseClassDActivity</string>
+        <string name="desense_plls_activity">DesensePllsActivity</string>
+        
+        <string name="lcd_write_cycle">LCD Write Cycle</string>
+        <string name="desense_text_set">Set</string>
+        <string name="desense_back_light_frequency">PWM Freq</string>
+        <string name="desense_back_light_duty">PWM Duty</string>
+        
+        <!-- De-Sense End -->
+        <!-- USB Start -->
+        <string name="USB_TEST">USB Test</string>
+        <string name="USB_IF_TEST">USB IF Test</string>
+        <string name="USB_IF_Elec_Test_Text">Electrical Test</string>
+        <string name="USB_IF_Proto_Test_Text">Protocol Test</string>
+        <string name="USB_IF_START_Text">Start</string>
+        <string name="USB_IF_STOP_Text">Stop</string>
+        <string name="USB_IF_Elec_EnVBUS_Text">Enable VBUS</string>
+        <string name="USB_IF_Elec_DeVBUS_Text">Detect VBUS</string>
+        <string name="USB_IF_Elec_EnSRP_Text">Enable SRP</string>
+        <string name="USB_IF_Elec_DeSRP_Text">Detect SRP</string>
+        <string name="USB_IF_Proto_AUUT_Text">A-UUT</string>
+        <string name="USB_IF_Proto_BUUT_Text">B-UUT</string>       
+        <!-- USB End -->
+        <!-- Band select Start -->
+        <string name="BandSelect">Band Mode</string>
+        <string name="BandSel_GSM">GSM Mode</string>
+        <string name="BandSel_UMTS">UMTS Mode</string>
+        <string name="BandSel_SET">SET</string>
+        <string name="BandSel_GSM_EGSM900">EGSM900</string>
+        <string name="BandSel_GSM_DCS1800">DCS1800</string>
+        <string name="BandSel_GSM_PCS1900">PCS1900</string>
+        <string name="BandSel_GSM_GSM850">GSM850</string>
+        <string name="BandSel_UMTS_BAND_I">WCDMA-IMT-2000</string>
+        <string name="BandSel_UMTS_BAND_II">WCDMA-PCS-1900</string>
+        <string name="BandSel_UMTS_BAND_III">WCDMA-DCS-1800</string>
+        <string name="BandSel_UMTS_BAND_IV">WCDMA-AWS-1700</string>
+        <string name="BandSel_UMTS_BAND_V">WCDMA-CLR-850</string>
+        <string name="BandSel_UMTS_BAND_VI">WCDMA-800</string>
+        <string name="BandSel_UMTS_BAND_VII">WCDMA-IMT-E-2600</string>
+        <string name="BandSel_UMTS_BAND_VIII">WCDMA-GSM-900</string>
+        <string name="BandSel_UMTS_BAND_IX">WCDMA-1800</string>
+        <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>       
+        <!-- Band select End -->
+</resources>

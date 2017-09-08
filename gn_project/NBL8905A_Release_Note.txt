@@ -1,0 +1,36 @@
+==================
+Build Notes
+==================
+1.版本目的:
+test
+2.修改的重大问题点:
+test
+3.测试重点:
+test
+4.应用数据库是否改变:
+test
+
+==================
+Release Location
+==================
+FTP://18.8.8.2/software_release/NBL8905A/NBL8905A01_A_CTA_T0227.zip
+Target: -opt=TARGET_BUILD_VARIANT=userdebug
+==================
+Software Version Description
+==================
+
+
+==================
+CR List
+==================
+[Repository Url]: http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+Tag url: http://192.168.110.97/svn/android_qc_kk_qct8974/tags/TAG_NBL8905A_T0227
+Previous tag: TAG_NBL8905A_T0225
+Code difference: svn diff -r 592:589 http://192.168.110.97/svn/android_qc_kk_qct8974/trunk
+
+[Repository Url]: http://192.168.110.97/svn/packages_qc_kk_qct8974/trunk
+CR01334267      Resolved   wangmeng   上传8905代码到备份服务器
+Tag url: http://192.168.110.97/svn/packages_qc_kk_qct8974/tags/TAG_NBL8905A_T0227
+Previous tag: TAG_NBL8905A_T0225
+Code difference: svn diff -r 9:19 http://192.168.110.97/svn/packages_qc_kk_qct8974/trunk
+
